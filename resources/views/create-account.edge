@@ -1,0 +1,27 @@
+@layout('main')
+
+@section('account')
+<!-- Div Father-->
+<div class="flex jc-center bg-info pt-5 pb-5 vw-100">
+    <div class="md-40 sm-100 p-1 pl-sm-3 pr-sm-3 br-2 white shadow-2">
+    <!-- Form -->
+    <form action="" class="form">
+    <span>Criar Conta</span>
+            <!-- Name -->
+            <input type="text" placeholder="Seu Nome" name="nome" id="name" required>
+            <!-- Email -->
+            <input type="email" placeholder="Seu Email" name="email" id="password" required>
+            <!-- Password -->
+            <input type="password" placeholder="Crie uma senha" name="email" id="password" required>
+            <input type="password" placeholder="Confirme a senha" name="email" id="password-confirm" required>
+
+            <div class="flex">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <small>Aceito os Termos de Uso</small>
+            </div>
+
+            <button type="submit" class="btn blue br-2">Enviar</button>
+        </form>
+    </div>
+</div>
+@endsection

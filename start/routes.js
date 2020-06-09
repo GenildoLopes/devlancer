@@ -18,3 +18,9 @@ const Route = use('Route')
 
 // Index
 Route.on('/').render('home')
+
+// Create Account
+Route.on('account').render('create-account')
+
+// Login
+Route.on('login').render('login')
