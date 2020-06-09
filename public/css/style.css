@@ -1,0 +1,139 @@
+/** Theme Colors **/
+
+/* Dark Theme */
+.bg-dark {
+    background: #343a40;
+}
+
+.invert-color {
+    filter: invert(100%);
+}
+
+/* Classic Theme */
+.classic-color-1 {
+    color: #480d80;
+}
+
+.classic-color-2 {
+    color: #24eef8;
+}
+
+.classic-bg-1 {
+    background: #480d80;
+}
+
+.classic-bg-2 {
+    background: #24eef8;
+}
+
+/** Navbar **/
+
+.navbox {
+    height: 60px;
+    box-shadow: 1px 1px 2px rgba(76, 77, 78, 0.6);
+    transition: none;
+}
+/* Logo */
+.nav-brand {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.badge-beta {
+    background: #3232f0;
+    color: aliceblue;
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    position: absolute;
+    top: 15px;
+    left: 9.4rem;
+}
+
+#btn-dark {
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: rgb(9, 241, 210);
+    font-weight: bold;
+}
+
+.box-hero {
+    position: absolute;
+    top: 25%;
+    color: aliceblue;
+}
+
+.box-hero span {
+    position: absolute;
+    font-size: 2.8rem;
+    opacity: 0;
+    transition: all, .8s;
+}
+
+.img-dev-1 {
+    position: relative;
+    left: 41rem;
+}
+
+#hero-txt1 {
+    left: -140%;
+}
+
+.box-call-help {
+    background: linear-gradient(to bottom, #8bf1ec, #c3f1d3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+}
+
+.box-call h1 {
+    font-size: 2.7rem;
+}
+
+.box-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-btns a {
+    margin: 1rem;
+    font-size: 1.4rem;
+    border-radius: 14px;
+}
+
+.box-btns span {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+.foot-list ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 16px;
+    margin-top: 9px;
+}
+
+.box-copy {
+    display: flex;
+    align-items: flex-end;
+    color: aliceblue;
+    padding-bottom: 1.2rem;
+    padding-right: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-copy {
+    font-size: 16px;
+}

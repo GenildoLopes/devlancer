@@ -17,4 +17,4 @@
 const Route = use('Route')
 
 // Index
-Route.on('/').render('index')
+Route.on('/').render('home')
