@@ -13,14 +13,21 @@
 |
 */
 
+const Database = use('Database')
+
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
 // Index
 Route.on('/').render('home')
 
+/* ----------- Sample Users -----------*/
+
 // Create Account
 Route.on('account').render('create-account')
-
+// Register Post Route
+Route.post('/register', 'AuthController.register')
 // Login
 Route.on('login').render('login')
+// Authentication
+Route.post('/auth', 'AuthController.authenticate')
