@@ -18,10 +18,12 @@ const Database = use('Database')
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
-// Index
+// Home (Users not logged)
 Route.on('/').render('home')
+// Index
 
-/* ----------- Sample Users -----------*/
+
+/* ----------- Users -----------*/
 
 // Create Account
 Route.on('account').render('create-account')
