@@ -23,13 +23,13 @@ Route.on('/').render('home')
 // Index
 
 
-/* ----------- Users -----------*/
+/* ----------- Commons Users -----------*/
 
 // Create Account
-Route.on('account').render('create-account')
+Route.on('/create-account').render('create-account')
 // Register Post Route
 Route.post('/register', 'AuthController.register')
 // Login
-Route.on('login').render('login')
+Route.on('/login').render('login')
 // Authentication
 Route.post('/auth', 'AuthController.authenticate')
