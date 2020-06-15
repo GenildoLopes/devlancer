@@ -23,7 +23,7 @@ Route.on('/').render('home')
 // Index
 
 
-/* ----------- Commons Users -----------*/
+/* ----------- Users -----------*/
 
 // Create Account
 Route.on('/create-account').render('create-account')
@@ -33,3 +33,9 @@ Route.post('/register', 'AuthController.register')
 Route.on('/login').render('login')
 // Authentication
 Route.post('/auth', 'AuthController.authenticate')
+
+/* ----------- Dev Users -----------*/
+Route.group(()=>{
+    Route.resource('devusers', 'DevUserController')
+})
+

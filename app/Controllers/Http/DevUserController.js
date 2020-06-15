@@ -37,7 +37,7 @@ class DevUserController {
    * @param {View} ctx.view
    */
   async create ({view }) {
-    return view.render('create-account')
+    return view.render('devusers.register')
   }
 
   /**
