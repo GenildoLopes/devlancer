@@ -27,7 +27,7 @@
     "@adonisjs/session": "^1.0.27",
     "@adonisjs/shield": "^1.0.8",
     "bootstrap": "^4.5.0",
-    "edge.js": "^1.1.4",
+    "edge.js": "^5.3.2",
     "jquery": "^3.5.1",
     "mysql": "^2.18.1",
     "popper.js": "^1.16.1",
